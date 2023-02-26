@@ -27,75 +27,108 @@ public class ASTRO {
 	System.out.println("======================================");				
 	System.out.println("\n"+"fill your planetary positions"+"\n");
 	
-	System.out.println("box1 must contain lakanam = 'la'"+"\n"+"enter no of planets at your box1");
+	System.out.println("box1 must contain lakanam = 'la'"+"\n"+"enter no of planets at your box1 (0-9)");
 	int bc1 = sc.nextInt();
 	System.out.println("enter 'la' and the planets at your box1");
 	for(int i=0;i<=bc1;i++) {
 	box1.add(sc.next());
 	}	
-	System.out.println("enter no of planets at your box2");
+	System.out.println("enter no of planets at your box2 (0-9)");
 	int bc2 = sc.nextInt();
-	System.out.println("enter the planets at your box2");
+	System.out.println("enter the planets at your box2 or null");
+	if(bc2==0) {
+		bc2=1;
+	}
 	for(int i=0;i<bc2;i++) {
 	box2.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box3");
+	System.out.println("enter no of planets at your box3 (0-9)");
 	int bc3 = sc.nextInt();
-	System.out.println("enter the planets at your box3");
+	System.out.println("enter the planets at your box3 or null");
+	if(bc3==0) {
+		bc3=1;
+	}
 	for(int i=0;i<bc3;i++) {
 	box3.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box4");
+	System.out.println("enter no of planets at your box4 (0-9)");
 	int bc4 = sc.nextInt();
-	System.out.println("enter the planets at your box4");
+	System.out.println("enter the planets at your box4 or null");
+	if(bc4==0) {
+		bc4=1;
+	}
 	for(int i=0;i<bc4;i++) {
 	box4.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box5");
+	System.out.println("enter no of planets at your box5 (0-9)");
 	int bc5 = sc.nextInt();
-	System.out.println("enter the planets at your box5");
+	System.out.println("enter the planets at your box5 or null");
+	if(bc5==0) {
+		bc5=1;
+	}
 	for(int i=0;i<bc5;i++) {
 	box5.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box6");
+	System.out.println("enter no of planets at your box6 (0-9)");
 	int bc6 = sc.nextInt();
-	System.out.println("enter the planets at your box6");
+	System.out.println("enter the planets at your box6 or null");
+	if(bc6==0) {
+		bc6=1;
+	}
 	for(int i=0;i<bc6;i++) {
 	box6.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box7");
+	System.out.println("enter no of planets at your box7 (0-9)");
 	int bc7 = sc.nextInt();
-	System.out.println("enter the planets at your box7");
+	System.out.println("enter the planets at your box7 or null");
+	if(bc7==0) {
+		bc7=1;
+	}
 	for(int i=0;i<bc7;i++) {
 	box7.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box8");
+	System.out.println("enter no of planets at your box8 (0-9)");
 	int bc8 = sc.nextInt();
-	System.out.println("enter the planets at your box8");
+	System.out.println("enter the planets at your box8 or null");
+	if(bc8==0) {
+		bc8=1;
+	}
 	for(int i=0;i<bc8;i++) {
 	box8.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box9");
+	System.out.println("enter no of planets at your box9 (0-9)");
 	int bc9 = sc.nextInt();
-	System.out.println("enter the planets at your box9");
+	System.out.println("enter the planets at your box9 or null");
+	if(bc9==0) {
+		bc9=1;
+	}
 	for(int i=0;i<bc9;i++) {
 	box9.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box10");
+	System.out.println("enter no of planets at your box10 (0-9)");
 	int bc10 = sc.nextInt();
-	System.out.println("enter the planets at your box10");
+	System.out.println("enter the planets at your box10 or null");
+	if(bc10==0) {
+		bc10=1;
+	}
 	for(int i=0;i<bc10;i++) {
 	box10.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box11");
+	System.out.println("enter no of planets at your box11 (0-9)");
 	int bc11 = sc.nextInt();
-	System.out.println("enter the planets at your box11");
+	System.out.println("enter the planets at your box11 or null");
+	if(bc11==0) {
+		bc11=1;
+	}
 	for(int i=0;i<bc11;i++) {
 	box11.add(sc.next());
 	}
-	System.out.println("enter no of planets at your box12");
+	System.out.println("enter no of planets at your box12 (0-9)");
 	int bc12 = sc.nextInt();
-	System.out.println("enter the planets at your box12");
+	System.out.println("enter the planets at your box12 or null");
+	if(bc12==0) {
+		bc12=1;
+	}
 	for(int i=0;i<bc12;i++) {
 	box12.add(sc.next());
 	}
